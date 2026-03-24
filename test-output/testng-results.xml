@@ -1,49 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-23T20:52:56 IST" name="Default suite" finished-at="2026-03-23T20:53:28 IST" duration-ms="32389">
+  <suite started-at="2026-03-24T21:09:26 IST" name="Default suite" finished-at="2026-03-24T21:09:26 IST" duration-ms="116">
     <groups>
     </groups>
-    <test started-at="2026-03-23T20:52:56 IST" name="Default test" finished-at="2026-03-23T20:53:28 IST" duration-ms="32389">
-      <class name="test.BeforeMethodAnnotations">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.BeforeMethodAnnotations@50eac852]" started-at="2026-03-23T20:52:56 IST" name="beforeMethod" finished-at="2026-03-23T20:53:05 IST" duration-ms="8651" status="PASS">
+    <test started-at="2026-03-24T21:09:26 IST" name="Default test" finished-at="2026-03-24T21:09:26 IST" duration-ms="116">
+      <class name="test.Assertions">
+        <test-method signature="testCase()[pri:0, instance:test.Assertions@3daa422a]" started-at="2026-03-24T21:09:26 IST" name="testCase" finished-at="2026-03-24T21:09:26 IST" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="inValidPassword()[pri:0, instance:test.BeforeMethodAnnotations@50eac852]" started-at="2026-03-23T20:53:05 IST" name="inValidPassword" finished-at="2026-03-23T20:53:06 IST" duration-ms="1320" status="PASS">
+        </test-method> <!-- testCase -->
+        <test-method signature="testLogin()[pri:0, instance:test.Assertions@3daa422a]" started-at="2026-03-24T21:09:26 IST" name="testLogin" finished-at="2026-03-24T21:09:26 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- inValidPassword -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BeforeMethodAnnotations@50eac852]" started-at="2026-03-23T20:53:06 IST" name="afterMethod" finished-at="2026-03-23T20:53:06 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.BeforeMethodAnnotations@50eac852]" started-at="2026-03-23T20:53:06 IST" name="beforeMethod" finished-at="2026-03-23T20:53:13 IST" duration-ms="7127" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="inValidUserName()[pri:0, instance:test.BeforeMethodAnnotations@50eac852]" started-at="2026-03-23T20:53:13 IST" name="inValidUserName" finished-at="2026-03-23T20:53:15 IST" duration-ms="1479" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inValidUserName -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BeforeMethodAnnotations@50eac852]" started-at="2026-03-23T20:53:15 IST" name="afterMethod" finished-at="2026-03-23T20:53:15 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.BeforeMethodAnnotations@50eac852]" started-at="2026-03-23T20:53:15 IST" name="beforeMethod" finished-at="2026-03-23T20:53:25 IST" duration-ms="10329" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="validUserNameAndPass()[pri:0, instance:test.BeforeMethodAnnotations@50eac852]" started-at="2026-03-23T20:53:25 IST" name="validUserNameAndPass" finished-at="2026-03-23T20:53:28 IST" duration-ms="3367" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validUserNameAndPass -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.BeforeMethodAnnotations@50eac852]" started-at="2026-03-23T20:53:28 IST" name="afterMethod" finished-at="2026-03-23T20:53:28 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- test.BeforeMethodAnnotations -->
+        </test-method> <!-- testLogin -->
+      </class> <!-- test.Assertions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
