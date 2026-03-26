@@ -1,61 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-25T20:35:34 IST" name="Default suite" finished-at="2026-03-25T20:37:28 IST" duration-ms="113848">
+  <suite started-at="2026-03-26T21:03:01 IST" name="Default suite" finished-at="2026-03-26T21:03:17 IST" duration-ms="16159">
     <groups>
     </groups>
-    <test started-at="2026-03-25T20:35:34 IST" name="Default test" finished-at="2026-03-25T20:37:28 IST" duration-ms="113848">
-      <class name="parameter.DataProviderConcept">
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:parameter.DataProviderConcept@243c4f91]" started-at="2026-03-25T20:35:34 IST" name="loginTest" data-provider="loginData" finished-at="2026-03-25T20:37:04 IST" duration-ms="89913" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[student]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password123]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2026-03-26T21:03:01 IST" name="Default test" finished-at="2026-03-26T21:03:17 IST" duration-ms="16159">
+      <class name="window.WindowHandles">
+        <test-method signature="windowHandling()[pri:0, instance:window.WindowHandles@3d51f06e]" started-at="2026-03-26T21:03:01 IST" name="windowHandling" finished-at="2026-03-26T21:03:17 IST" duration-ms="16068" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:parameter.DataProviderConcept@243c4f91]" started-at="2026-03-25T20:37:04 IST" name="loginTest" data-provider="loginData" finished-at="2026-03-25T20:37:16 IST" duration-ms="11415" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[student123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:parameter.DataProviderConcept@243c4f91]" started-at="2026-03-25T20:37:16 IST" name="loginTest" data-provider="loginData" finished-at="2026-03-25T20:37:28 IST" duration-ms="12316" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[45636]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- parameter.DataProviderConcept -->
+        </test-method> <!-- windowHandling -->
+      </class> <!-- window.WindowHandles -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

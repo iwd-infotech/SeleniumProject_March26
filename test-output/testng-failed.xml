@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.Assertions">
+      <class name="parallel.FirefoxBrowser">
         <methods>
-          <include name="testCase"/>
+          <include name="firefoxBrowser"/>
         </methods>
-      </class> <!-- test.Assertions -->
+      </class> <!-- parallel.FirefoxBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

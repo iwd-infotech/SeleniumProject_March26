@@ -1,6 +1,4 @@
-package parameter;
-
-import org.testng.annotations.Test;
+package parallel;
 
 import java.time.Duration;
 
@@ -8,13 +6,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.DataProvider;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
-public class DataProviderConcept {
-
-	@Test(dataProvider = "loginData")
-	public void loginTest(String user, String pass) {
-		System.out.println("Before Method");
+public class FirefoxBrowserParallel {
+	
+	@Test
+	public void firefoxBrowser() {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://practicetestautomation.com/practice-test-login/");
 		driver.manage().window().maximize();
@@ -22,32 +20,14 @@ public class DataProviderConcept {
 		
 		WebElement UserName_Textbox = driver.findElement(By.id("username"));
 		UserName_Textbox.clear();
-		UserName_Textbox.sendKeys(user);
+		UserName_Textbox.sendKeys("student");
 		
 		WebElement password_Textbox = driver.findElement(By.name("password"));
 		password_Textbox.clear();
-		password_Textbox.sendKeys(pass);
+		password_Textbox.sendKeys("Password123");
 		
 		WebElement submit_button = driver.findElement(By.id("submit"));
 		submit_button.click();
-
-
 	}
 
-	@DataProvider
-	public Object[][] loginData() {
-		return new Object[][] {
-			{ "student", "Password123" },
-			{ "student123", "Password123" },
-			{ " ", "45636" },
-		};
-	}
 }
-
-
-// Depended TestCases -> Login -> Dashboard -> Product Page -> Address etc. 
-// In-depended TestCases -> 100 testcases - 50 
-
-
-
-
